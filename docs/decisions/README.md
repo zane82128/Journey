@@ -25,3 +25,8 @@
 使用者明確回覆「名稱叫 Journey 好了，公開 Repo 與網站」，授權以 `zane82128/Journey` 建立公開 repo 並發布 GitHub Pages。介面品牌、manifest 與 CI 基底路徑已更新為 Journey／`/Journey/`；本機目錄仍是 `pixel_calendar`，資料 key 保持 `pixelCalendar.v1`，避免改名使現有資料消失。
 
 GitHub 外掛已確認安裝，但目前對話尚未載入 GitHub 操作工具，未能確認帳號授權；遠端建立、推送與部署仍未執行。後續可直接承接本次授權，不需再詢問公開範圍。
+
+
+## 2026-11-05：公開發布完成
+
+已驗證帳號 zane82128，確認 Journey 名稱可用後建立公開 repo，首次提交 38d0684 推送至 main。Pages 使用 GitHub Actions；部署 42036589221 的驗收與發布均成功，已開啟 https://zane82128.github.io/Journey/ 確認畫面。資料仍是各來源獨立的 localStorage，未建立同步服務。歷史段落中的「尚未建立」為當時狀態，以此紀錄與部署文件為準。

@@ -2,9 +2,15 @@
 
 ## 本輪準備狀態
 
-已準備 GitHub Actions 檢查、手動部署工作流程與靜態產物檢查。使用者已確認名稱 Journey，並授權公開 repo 與公開網站。GitHub 外掛已安裝，但目前對話尚未載入工具，帳號授權仍待驗證。遠端 repo 尚未建立、尚未推送、尚未部署。
+2026-11-05 已確認 GitHub 帳號為 `zane82128`，建立公開 repo 並推送 main，Pages 來源設為 GitHub Actions。
 
-預計 repo 名稱 `Journey`。若沿用既有專案帳號，預計來源網址為 `https://github.com/zane82128/Journey`，網站網址為 `https://zane82128.github.io/Journey/`。兩者都只是預計網址，不能當作已存在的結果。
+- 原始碼：https://github.com/zane82128/Journey
+- 正式網站：https://zane82128.github.io/Journey/
+- 首次發布提交：`38d068467b4b80c2bd2d2ffad167ad15c94d2b45`
+- 部署紀錄：https://github.com/zane82128/Journey/actions/runs/42036589221
+- verify / check 與 deploy 均成功；CI 已執行 npm ci、npm test、npm run build、產物檢查及 npm run test:ui。正式網址已開啟確認月曆與字型呈現。
+- 本機亦通過 17 項單元測試及 26 項瀏覽器檢查。手機實機、正式來源的 CRUD 與離線人工驗收仍待完成，不等同已驗收。
+- Actions 顯示既有 action 的 Node 20 棄用提示，但此次作業成功；後續維護應更新 action 版本。
 
 ## 一次設定
 

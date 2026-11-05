@@ -51,7 +51,7 @@ npm run test:ui
 
 提醒只在頁面持續執行時提示，關閉 App 後不推播；作業系統暫停背景分頁可能使提醒延誤。離線功能需首次連線載入完成，正式裝置的安裝能力仍需實機確認。
 
-手機版已做桌面瀏覽器的觸控與尺寸模擬，尚未完成 Android／iOS 實機驗收。尚未建立遠端 repo 或部署。
+手機版已做桌面瀏覽器的觸控與尺寸模擬，尚未完成 Android／iOS 實機驗收。已發布公開 GitHub Pages，網址為 https://zane82128.github.io/Journey/ 。
 
 ## 檔案
 
@@ -70,4 +70,4 @@ docs/              產品、架構、決策與驗收紀錄
 
 ## GitHub 與部署
 
-已準備手動 GitHub Pages 部署流程，發布前會先執行全部檢查，再發布同一份已驗證產物。遠端 repo 與網站尚未建立。設定與操作見 [GitHub Pages 部署說明](docs/release/github-pages.md)。
+已準備手動 GitHub Pages 部署流程，發布前會先執行全部檢查，再發布同一份已驗證產物。公開 repo：https://github.com/zane82128/Journey ，網站：https://zane82128.github.io/Journey/ 。設定與操作見 [GitHub Pages 部署說明](docs/release/github-pages.md)。
